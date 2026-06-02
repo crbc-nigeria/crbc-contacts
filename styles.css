@@ -1,0 +1,75 @@
+html {
+  background: #f6f7f9;
+}
+:root {
+  color-scheme: light;
+  font-family: Arial, "Microsoft YaHei", sans-serif;
+  color: #20242a;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: start center;
+  padding: 18px 20px 24px;
+}
+main {
+  width: min(520px, 100%);
+  background: #fff;
+  border: 1px solid #e2e6ec;
+  border-radius: 8px;
+  padding: 22px 24px 26px;
+  box-shadow: 0 12px 36px rgba(22, 34, 51, 0.08);
+}
+.logo {
+  display: block;
+  width: min(100%, 440px);
+  height: auto;
+  margin: 0 auto 22px;
+}
+h1 {
+  margin: 0 0 6px;
+  font-size: 26px;
+  line-height: 1.25;
+}
+.role {
+  margin: 0 0 22px;
+  color: #606874;
+  line-height: 1.5;
+}
+.primary-text {
+  display: block;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  color: #20242a;
+}
+.secondary-text {
+  display: block;
+  font-family: "方正仿宋_GBK", "FangSong", "仿宋", serif;
+  color: #75808d;
+  font-weight: 400;
+}
+a {
+  display: block;
+  padding: 15px 16px;
+  margin-top: 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 700;
+  text-align: center;
+}
+.primary,
+main > a {
+  background: #0b5cab;
+  color: #fff;
+}
+.secondary {
+  background: #e9eef5;
+  color: #1f2c3d;
+}
+.meta {
+  margin: 20px 0 0;
+  font-size: 13px;
+  color: #75808d;
+  line-height: 1.5;
+}
